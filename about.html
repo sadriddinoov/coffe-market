@@ -12,7 +12,7 @@
         COFFEE-MAGAZIN
     </h1>
     
-    <header>
+    <header class="header">
         <div class="container">
             <div class="header__container">
                 <img src="./images/site-logo.svg" alt="site-logo" class="header-left-side__img" width="236" height="26">
@@ -27,7 +27,7 @@
                         </li>
                         
                         <li class="header-right-side__item">
-                            <a href="#" class="header-right-side-item__link header-active__link">
+                            <a href="subscribe.html" class="header-right-side-item__link header-active__link">
                                 ABOUT US
                             </a>
                         </li>
@@ -51,7 +51,13 @@
         <section class="about">
             <div class="container">
                 <div class="about__container">
-                    <img src="./images/about.jpg" alt="about" class="about__img" width="1250" height="450">
+                    <h2 class="about__heading">
+                        About Us
+                    </h2>
+
+                    <p class="about__text">
+                        Coffeeroasters began its journey of exotic discovery in 1999, highlighting stories of coffee from around the world. We have since been dedicated to bring the perfect cup - from bean to brew - in every shipment.
+                    </p>
                 </div>
             </div>
         </section>
@@ -60,7 +66,8 @@
             <div class="container">
                 <div class="comitment__container">
                     <div class="comitment-left-side">
-                        <img src="./images/Bitmap.jpg" alt="comitment" class="comitment__img" width="445" height="520">
+                        <img src="./images/comitment.jpg" alt="comitment" class="comitment__img" width="445" height="520"
+                        srcset="./images/comitment2x.jpg 2x, ./images/comitment.jpg 1x">
                     </div>
                     
                     <div class="comitment-right-side">
@@ -79,24 +86,31 @@
         
         <section class="about-hero">
             <div class="container">
+                <div class="about-hero__container">
+                    <h3 class="about-hero__heading">
+                        Uncompromising quality
+                    </h3>
+                    
+                    <p class="about-hero__text">
+                        Although we work with growers who pay close attention to all stages of harvest and processing, we employ, on our end, a rigorous quality control program to avoid over-roasting or baking the coffee dry. Every bag of coffee is tagged with a roast date and batch number. Our goal is to roast consistent, user-friendly coffee, so that brewing is easy and enjoyable.
+                    </p>
+    
+                    <div class="about-hero__img-wrapper">
+                        <img src="./images/coffe-heart.png" alt="coffe-heart" class="about-hero__img"
+                        srcset="./images/coffe-heart2x.png 2x, ./images/coffe-heart.png 1x">
+                    </div>
+                </div>
                 
-                <h3 class="about-hero__heading">
-                    Uncompromising quality
-                </h3>
                 
-                <p class="about-hero__text">
-                    Although we work with growers who pay close attention to all stages of harvest and processing, we employ, on our end, a rigorous quality control program to avoid over-roasting or baking the coffee dry. Every bag of coffee is tagged with a roast date and batch number. Our goal is to roast consistent, user-friendly coffee, so that brewing is easy and enjoyable.
-                </p>
+
             </div>
-            
-            <div class="about-hero__img-wrapper"></div>
         </section>
         
         
         <section class="regions">
             <div class="container">
                 <div class="regions__container">
-                    <h3 class="region__heading">
+                    <h3 class="regions__heading">
                         Our headquarters
                     </h3>
                     
@@ -148,29 +162,29 @@
     </main>
 
 
-    <footer>
+    <footer class="footer">
         <div class="container">
             <div class="footer__container">
                 <div class="footer-left-side">
 
                     <img src="./images/site-logo-white.svg" alt="site-logo" class="footer-left-side-img" width="236" height="26">
 
-                    <nav class="header-right-side-list-wrapper">
+                    <nav class="footer-left-side-list-wrapper">
                     
-                        <ul class="header-right-side__list">
-                            <li class="header-right-side__item">
+                        <ul class="footer-left-side__list">
+                            <li class="footer-right-side__item">
                                 <a href="#" class="header-right-side-item__link header-active__link footer-left-side__link">
                                     HOME
                                 </a>
                             </li>
                             
-                            <li class="header-right-side__item">
+                            <li class="footer-left-side__item">
                                 <a href="#" class="header-right-side-item__link footer-left-side__link">
                                     ABOUT US
                                 </a>
                             </li>
                             
-                            <li class="header-right-side__item">
+                            <li class="footer-left-side__item">
                                 <a href="#" class="header-right-side-item__link footer-left-side__link">
                                     Create your plan 
                                 </a>

@@ -13,7 +13,7 @@
         COFFEE-MAGAZIN
     </h1>
     
-    <header>
+    <header class="header">
         <div class="container">
             <div class="header__container">
                 <img src="./images/site-logo.svg" alt="site-logo" class="header-left-side__img" width="236" height="26">
@@ -48,11 +48,24 @@
     </header>
     
     <main>
-        <div class="container">
-            <div class="main__container">
-                <img src="./images/main-img.jpg" alt="main-img" class="main__img" width="1280" height="600">
+        <section class="main">
+            <div class="container">
+                <div class="main__container">
+                    <h2 class="main__heading">
+                        Great coffee made simple.
+                    </h2>
+    
+                    <p class="main__text">
+                        Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees from our best roasters delivered directly to your door, at your schedule.
+                    </p>
+    
+                    <button class="main__btn">
+                        Create your plan
+                    </button>
+                </div>
             </div>
-        </div>
+        </section>
+  
         
         
         <div class="hero">
@@ -62,8 +75,11 @@
                     
                     <ul class="hero__list">
                         <li class="hero__item">
-                            <img src="./images/gran-espressso.png" alt="gran-espressso" class="hero-list__img" width="255" height="193">
+                            <img src="./images/granespresso.png" alt="gran-espressso" class="hero-list__img" width="255" height="193" 
+                            srcset="./images/granespresso2x.png 2x, ./images/granespresso.png 1x">
                             
+                            <div class="hero-text-wrapper">
+                                
                             <h2 class="coffe__heading">
                                 Gran Espresso
                             </h2>
@@ -71,12 +87,15 @@
                             <p class="coffe__text">
                                 Light and flavorful blend with cocoa and black pepper for an intense experience.
                             </p>
+                            </div>
                             
                         </li>
                         
                         <li class="hero__item">
-                            <img src="./images/planatto.png" alt="planatto" class="hero-list__img" width="255" height="193">
+                            <img src="./images/planatto.png" alt="planatto" class="hero-list__img" width="255" height="193"
+                            srcset="./images/planatto2x.png 2x, ./images/planatto.png 1x">
                             
+                           <div class="hero-text-wrapper">
                             <h2 class="coffe__heading">
                                 Planalto
                             </h2>
@@ -84,12 +103,16 @@
                             <p class="coffe__text">
                                 Brazilian dark roast with rich and velvety body, and hints of fruits and nuts.
                             </p>
+                           </div>
                             
                         </li>
                         
                         <li class="hero__item">
-                            <img src="./images/picollo.png" alt="picollo" class="hero-list__img" width="255" height="193">
-                            
+                            <img src="./images/picollo.png" alt="picollo" class="hero-list__img" width="255" height="193"
+                            srcset="./images/picollo2x.png 2x, ./images/picollo.png 1x">
+                           
+                            <div class="hero-text-wrapper">
+                                 
                             <h2 class="coffe__heading">
                                 Piccollo
                             </h2>
@@ -98,11 +121,14 @@
                                 Mild and smooth blend featuring notes of toasted almond and dried cherry.
                             </p>
                             
+                            </div>
                         </li>
                         
                         <li class="hero__item">
-                            <img src="./images/picollo.png" alt="picollo" class="hero-list__img" width="255" height="193">
+                            <img src="./images/picollo.png" alt="picollo" class="hero-list__img" width="255" height="193"
+                            srcset="./images/picollo2x.png 2x, ./images/picollo.png 1x">
                             
+                           <div class="hero-text-wrapper">
                             <h2 class="coffe__heading">
                                 Danche
                             </h2>
@@ -110,6 +136,7 @@
                             <p class="coffe__text">
                                 Ethiopian hand-harvested blend densely packed with vibrant fruit notes.
                             </p>
+                           </div>
                             
                         </li>
                     </ul>
@@ -135,13 +162,15 @@
                             
                             <img src="./images/cofe-hero.svg" alt="cofe-icon" class="items-list__img" width="71" height="71">
                             
-                            <h3 class="coffe__heading items-list__heading">
-                                Best quality
-                            </h3>
-                            
-                            <p class="coffe__text items-list__tex">
-                                Discover an endless variety of the world's best artisan coffee from each of our roasters.
-                            </p>
+                            <div class="items-text-wrapper">
+                                <h3 class="coffe__heading items-list__heading">
+                                    Best quality
+                                </h3>
+                                
+                                <p class="coffe__text items-list__tex">
+                                    Discover an endless variety of the world's best artisan coffee from each of our roasters.
+                                </p>
+                            </div>
                             
                         </li>
                         
@@ -149,20 +178,24 @@
                             
                             <img src="./images/padarka-hero.svg" alt="padarka-icon" class="items-list__img" width="71" height="71">
                             
-                            <h3 class="coffe__heading items-list__heading">
-                                Exclusive benefits
-                            </h3>
-                            
-                            <p class="coffe__text items-list__tex">
-                                Special offers and swag when you subscribe, including 30% off your first shipment.
-                            </p>
+                            <div class="items-text-wrapper">
+                                <h3 class="coffe__heading items-list__heading">
+                                    Exclusive benefits
+                                </h3>
+                                
+                                <p class="coffe__text items-list__tex">
+                                    Special offers and swag when you subscribe, including 30% off your first shipment.
+                                </p>
+                            </div>
                             
                         </li>
                         
                         <li class="items__item">
                             
                             <img src="./images/kamaz-hero.svg" alt="kamaz-icon" class="items-list__img" width="71" height="71">
-                            
+                          
+                            <div class="items-text-wrapper">
+                                  
                             <h3 class="coffe__heading items-list__heading">
                                 Free shipping
                             </h3>
@@ -170,6 +203,7 @@
                             <p class="coffe__text items-list__tex">
                                 We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.
                             </p>
+                            </div>
                             
                         </li>
                         
@@ -209,11 +243,11 @@
                                 Choose the frequency
                             </h3>
                             <p class="plan-item__text">
-                                Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your subscription with no commitment through our online portal.
+                                Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your subscription with no commitment through our online.
                             </p>
                         </li>
                         
-                        <li class=" plan-last__item">
+                        <li class=" plan__item">
                             <p class="plan-number__text">
                                 03
                             </p>
@@ -238,29 +272,29 @@
         
     </main>
     
-    <footer>
+    <footer class="footer">
         <div class="container">
             <div class="footer__container">
                 <div class="footer-left-side">
 
                     <img src="./images/site-logo-white.svg" alt="site-logo" class="footer-left-side-img" width="236" height="26">
 
-                    <nav class="header-right-side-list-wrapper">
+                    <nav class="footer-left-side-list-wrapper">
                     
-                        <ul class="header-right-side__list">
-                            <li class="header-right-side__item">
+                        <ul class="footer-left-side__list">
+                            <li class="footer-left-side__item">
                                 <a href="#" class="header-right-side-item__link header-active__link footer-left-side__link">
                                     HOME
                                 </a>
                             </li>
                             
-                            <li class="header-right-side__item">
+                            <li class="footer-left-side__item">
                                 <a href="#" class="header-right-side-item__link footer-left-side__link">
                                     ABOUT US
                                 </a>
                             </li>
                             
-                            <li class="header-right-side__item">
+                            <li class="footer-left-side__item">
                                 <a href="#" class="header-right-side-item__link footer-left-side__link">
                                     Create your plan 
                                 </a>
